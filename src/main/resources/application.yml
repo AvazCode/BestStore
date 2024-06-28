@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/BestStore
+    username: postgres
+    password: 2006
+  mvc: # JSP File Configuration
+    view:
+      prefix: /views/
+      suffix: .jsp
+
+
+
